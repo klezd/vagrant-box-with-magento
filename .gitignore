@@ -1,4 +1,5 @@
 ubuntu-bionic*
 /.vagrant/machines/
 /.vagrant/rgloader/
-MagentoCE-22.tar.gz
+Magento*.tar.gz
+/magento2ce/
