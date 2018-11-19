@@ -23,31 +23,15 @@ $ vagrant ssh
 ```
 
 You now have your database and magento set. 
-To secure your database, run the below command to set password for mysql root 
+
+And your account to mysql is magento/magento
 
 ```
-$ sudo mysql_secure_installation
+
+$ mysql -u magento -pmagento
+
 ```
 
-When prompted, answer the questions below by following the guide.
-
-Enter current password for root (enter for none): Just press Enter
-
-Set root password? [Y/n]: Y
-
-New password: Enter password
-
-Re-enter new password: Repeat password
-
-Remove anonymous users? [Y/n]: Y
-
-Disallow root login remotely? [Y/n]: Y
-
-Remove test database and access to it? [Y/n]:  Y
-
-Reload privilege tables now? [Y/n]:  Y
-
-###### Now you can login to mysql with ``` mysql -u root -p ``` with your new password
 ---
 
 Now you can come to http://127.0.0.1:1180 to start setup 
